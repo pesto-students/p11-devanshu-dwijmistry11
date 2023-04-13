@@ -10,7 +10,7 @@
 <!-- ## Screenshots -->
 ---
 ## Tech/framework used
-<img src='../Resources/mdfile.png' alt='md file' height=50px>
+<img src='./Images/mdfile.png' alt='md file' height=50px>
 
 ---
 
@@ -24,13 +24,19 @@
 
 <!-- ## Tests -->
 
-## How to use?
-**File Structure**
-Session-01
-|----> Assignment.md  (Questions)
-|----> Assignment_Solution.md (Questions + Answers)
-|----> Instructions.md (How to perform the Assignemnt?)
-|----> Resources.md (Supportive resources to complete the assignemnt)
+<!-- ## How to use? -->
+## Tree Structure
+
+<pre><font color="#12488B"><b>Week-1</b></font>
+│   └── <font color="#12488B"><b>Session-01</b></font>
+│       ├── <font color="#26A269"><b>Assignment.md</b></font>
+│       ├── <font color="#26A269"><b>Assignment_Solution.md</b></font>
+│       ├── <font color="#12488B"><b>Images</b></font>
+│       │   └── <font color="#26A269"><b>mdfile.png</b></font>
+│       ├── <font color="#26A269"><b>Instructions.md</b></font>
+│       ├── <font color="#26A269"><b>README.md</b></font>
+│       └── <font color="#26A269"><b>Resources.md</b></font>
+</pre>
 
 ---
 <!-- ## Contribute -->
