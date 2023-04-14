@@ -2,13 +2,20 @@
 ---
 #### 1) What is a protocol stack, and how is it used in web development?
 
+- Protocol stack means set of protocols are being used in the communication network.
+- There are different types of protocols such as, HTTP, HTTPS, TCPIP, TELNET, FTP, so-on...
+- Protocols are used in web developemnt to make things robust and secure.
+
+lets take some of the examples.
+##### :TCP/IP:
+
 
 #### 2) What are the different types of web servers, and how do they differ in terms of functionality and performance?
 
 
 #### 3) What is web hosting, and what are the different types of hosting services available for websites?
 
-- Web hosting means hosting a website in 
+- To host our website is know as a Web hosting. 
 
 #### 4) What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
 
