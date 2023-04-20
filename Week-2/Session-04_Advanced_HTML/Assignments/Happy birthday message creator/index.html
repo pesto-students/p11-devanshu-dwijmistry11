@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="" method="post">
+        <!--Heading of the form-->
+        <h1>Happy Birthday Message Creator</h1>
+        <!--Message-->
+        <div class="formDivStyle">
+            <label for="MessageInput" class="formLabelStyle">Message?</label>
+            <input type="text" name="MessageInput" id="MessageInput">  
+        </div>
+        <!--email id-->
+        <div class="formDivStyle">
+            <label for="emailInput" class="formLabelStyle">Email address?</label>
+            <input type="email" name="emailInput" id="emailInput">
+        </div>
+        <!--date-->
+        <div class="formDivStyle">
+            <label for="dateInput" class="formLabelStyle">Date to send?</label>
+            <input type="date" name="dateInput" id="dateInput">
+        </div>
+        <!--color-->
+        <div class="formDivStyle">
+            <label for="colorInput" class="formLabelStyle">Message color?</label>
+            <input type="color" name="colorInput" id="colorInput">
+        </div>
+        <!--number of blinks-->
+        <div class="formDivStyle">
+            <label for="blinkNumber" class="formLabelStyle">Number of blinks?</label>
+            <input type="number" name="blinkNumber" id="blinkNumber" min="0" max="10" value="0" >
+        </div>
+        <!--volume range-->
+        <div class="formDivStyle">
+            <label for="volumeInput" class="formLabelStyle">Music volume?</label>
+            <input type="range" name="volumeInput" id="volumeInput" value="20" min="0" max="50">
+        </div>
+        <!--submit button-->
+        <div class="formDivStyle">
+            <input type="submit" value="Send Birthday Message">
+        </div>
+
+    </form>
+    
+</body>
+</html>
