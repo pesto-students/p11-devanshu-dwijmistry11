@@ -1,0 +1,23 @@
+:root{
+    --1:#80FF84;
+    --2:#00DD9D;
+    --3:#00B8A6;
+    --4:#00919D;
+    --5:#066B81;
+    --6:#2F4858;
+
+}
+
+*{
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#headerSection{
+    display: block;
+    height: 100px;
+    background-image: linear-gradient(to right top, #2f4858, #2c5c6e, #237082, #128592, #009b9e, #00aba4, #00bba6, #04cba5, #27d9a1, #44e69a, #62f390, #80ff84);
+}
