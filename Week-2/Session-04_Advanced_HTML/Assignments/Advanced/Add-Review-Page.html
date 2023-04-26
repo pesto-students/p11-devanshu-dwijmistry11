@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;400&family=Poppins&display=swap" rel="stylesheet">
+    <title>Add Review Page</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Restaurant Reviews</a></h1>
+        <nav>
+            <ul>
+                <li><a href="About-Page.html">About</a></li>
+                <li><a href="Add-Review-Page.html">Add Review</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sectionUI">
+            <!-- Restaurant title -->
+            <h2 class="restoText" >Add Review</h2>
+            <form action="#" method="post">
+                <div class="divGroupForm">
+                    <label for="name" class="restoText">Name?</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="divGroupForm">
+                    <label for="restaurant" class="restoText">Restaurant?</label>
+                    <select name="restaurant" id="restaurant">
+                        <option value="Main Street Cafe">Main Street Cafe</option>
+                        <option value="Greek House">Greek House</option>
+                    </select>
+                </div>
+                <div class="divGroupForm">
+                    <label for="visitdate" class="rstoText">Date of visit?</label>
+                    <input type="date" name="visitdate" id="visitdate">
+                </div>
+                <div class="divGroupForm">
+                    <label for="ratings" class="restoText">Rating?</label>
+                    <input type="number" name="ratings" id="ratings" value="0" min="0" max="5">
+                </div>
+                <div class="divGroupForm">
+                    <label for="details" class="restoText">Details?</label>
+                    <textarea name="details" id="details" cols="30" rows="10"></textarea>
+                </div>
+                <input type="submit" value="submit">
+            </form>
+            <label for=""></label>
+            
+        </section>
+
+    </main>
+
+    <footer>
+        <p><i>&copy 2023 Restaurant Reviews</i></p>
+    </footer>
+</body>
+</html>
