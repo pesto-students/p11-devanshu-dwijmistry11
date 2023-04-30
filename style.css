@@ -1,0 +1,122 @@
+:root{
+    --1:#80FF84;
+    --2:#00DD9D;
+    --3:#00B8A6;
+    --4:#00919D;
+    --5:#066B81;
+    --6:#2F4858;
+
+}
+
+*{
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#headerSection{
+    height: 100px;
+    background-color: var(--6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--4);
+}
+
+#headerSection a{
+    text-decoration: none;
+}
+
+.site-title{
+    margin-left: 10px;
+    padding: 20px;
+    color: var(--4);
+}
+
+a{
+    text-decoration:none;
+}
+
+#navigation a{
+    margin: 10px;
+    border: 2px solid var(--6);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: var(--6);
+    font-style: normal;
+    color: #00DD9D;
+    text-decoration:none;
+    font-weight: bold;
+    text-shadow: 0 0 3px #000, 0 0 5px #000, 0 0 10px #000;
+}
+
+#navigation a:hover{
+    
+    background-image: linear-gradient(to right top, #2f4858, #2c5c6e, #237082, #128592, #009b9e, #00aba4, #00bba6, #04cba5, #27d9a1, #44e69a, #62f390, #80ff84);
+    color: black;
+    text-shadow:none ;
+}
+
+main{
+    background-color: var(--6);
+    /* height: 100vh; */
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    min-height: 100vh;
+
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    background-color: var(--6);
+    justify-content: space-between;
+    align-items: center;
+    color: var(--4);
+}
+
+footer p{
+    margin-left: 20px;
+}
+
+section{
+    margin-left: 5%;
+    margin-right:5%;
+    background-color: var(--2);
+    border-radius: 15px;
+}
+
+
+table{
+    display: block;
+    text-align: center;
+    table-layout: fixed;
+    /* width:100%;  */
+    padding: 10px; 
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+th, td{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+thead, th{
+    background-color: var(--3);
+    font-weight: bolder;
+}
+
+td a{
+    color: var(--1);
+    font-weight: bolder;
+    text-shadow: 0 0 3px #000, 0 0 5px #000, 0 0 10px #000;
+}
+
+td a:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-shadow: 0 0 3px rgb(255, 0, 0), 0 0 10px rgb(255, 0, 0), 0 0 5p rgb(255, 0, 0)00;
+}
