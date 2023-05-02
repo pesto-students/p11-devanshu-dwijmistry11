@@ -78,10 +78,10 @@ footer{
 }
 
 .sectionUI a{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: var(--fc);
+    /* display: block; */
+    /* text-align: center; */
+    /* text-decoration: none; */
+    /* color: var(--fc); */
     font-size:1rem;
     font-weight:bolder;
     margin: 2% auto 2% auto;
@@ -110,4 +110,42 @@ footer{
     width:200px;
     text-align: left;
 
+}
+
+
+
+.submitButton{
+    display: block;
+    text-align: center;
+    margin:10px;
+    
+    /* margin: 100px; */
+}
+
+input[type='submit']{
+    border-radius: 15px;
+    background-color: var(--fc);
+    padding-left:20px;
+    padding-right: 20px ;
+    padding:10px 20px 10px 20px ;
+    color: white;
+    font-weight: bold;
+}
+
+input[type='submit']:hover{
+    background-color: var(--bc);
+    color: black;
+}
+
+.aboutHeading{
+    display: block;
+    margin: 20px ;
+}
+
+.italicText{
+    font-style: italic;
+}
+
+.mapStyle{
+    text-align: center;
 }
