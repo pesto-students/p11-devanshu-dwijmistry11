@@ -1,0 +1,37 @@
+p:nth-child(5) {
+   background: revert;
+   box-shadow: revert;
+   padding: revert;
+}
+
+a {
+   font-size: 12px;
+}
+
+/* Add styles here */
+
+body{
+   background-color: rgb(178, 191, 255);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+   color: navy;
+   text-shadow: 5px 5px 10px black;
+   padding: 8px;
+}
+p{
+   /* background-image: linear-gradient(to right bottom rgb(0, 0, 246) rgb(178, 178, 255)); */
+   width: 500px;
+   padding: 10px;
+   height:auto;
+   border: 1px solid black;
+   border-radius: 5px;
+   color: white;
+   background-image: linear-gradient(to right bottom, blue , rgb(203, 203, 255));
+   box-shadow: 5px 5px 6px gray;
+}
+
+p:nth-child(5) {
+   border: revert;
+}

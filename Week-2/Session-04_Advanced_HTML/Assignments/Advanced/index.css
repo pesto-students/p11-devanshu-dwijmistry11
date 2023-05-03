@@ -1,0 +1,151 @@
+:root{
+    --bc:#ffd0b2; /*background color*/
+    --fc:#323232; /*font color*/
+    --sc:#FFA56D; /*spare key color*/
+}
+
+
+
+*{
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header{
+    width: auto;
+    display: grid;
+    height: 10%;
+    background-image: linear-gradient(to right top, #323232, #504653, #7b576c, #aa6878, #d67d79, #e38d7b, #ef9e7f, #f8b083, #f2b894, #ecc0a5, #e5c8b6, #ddd0c8);
+}
+
+nav ul{
+    list-style: none;
+    display: block;
+}
+  
+nav ul li {
+    float:right;
+    padding:10px;
+    text-align: center;
+    display: inline;
+    margin: 10px;
+    color: var(--sc);
+    background-image: linear-gradient(to left bottom, #ddd0c8, #e8c6b1, #f1bb9a, #f8b083, #ffa56d);
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px var(--fc);
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--fc);
+    font-weight: bold;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+}
+body{
+    background-color: var(--bc);
+}
+main, footer{
+    background-color: var(--bc);
+}
+
+nav ul li:hover{
+    background-image: linear-gradient(to right top, #ddd0c8, #e8c6b1, #f1bb9a, #f8b083, #ffa56d);
+}
+
+main{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+footer{
+    margin: 10px;
+}
+
+.sectionUI{
+   border: 2px solid black; 
+   margin-top: 2%;
+   display: block;
+   border-radius: 15px;
+   background-color: var(--sc);
+}
+
+.sectionUI a{
+    /* display: block; */
+    /* text-align: center; */
+    /* text-decoration: none; */
+    /* color: var(--fc); */
+    font-size:1rem;
+    font-weight:bolder;
+    margin: 2% auto 2% auto;
+}
+
+.restoImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.starImage{
+    display: block;
+    margin: 20px;
+    width: 30%
+}
+
+.restoText{
+    margin: 20px;
+    display: block;
+}
+
+.divGroupForm label{
+    display: inline-block;
+    width:200px;
+    text-align: left;
+
+}
+
+
+
+.submitButton{
+    display: block;
+    text-align: center;
+    margin:10px;
+    
+    /* margin: 100px; */
+}
+
+input[type='submit']{
+    border-radius: 15px;
+    background-color: var(--fc);
+    padding-left:20px;
+    padding-right: 20px ;
+    padding:10px 20px 10px 20px ;
+    color: white;
+    font-weight: bold;
+}
+
+input[type='submit']:hover{
+    background-color: var(--bc);
+    color: black;
+}
+
+.aboutHeading{
+    display: block;
+    margin: 20px ;
+}
+
+.italicText{
+    font-style: italic;
+}
+
+.mapStyle{
+    text-align: center;
+}
