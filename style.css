@@ -50,11 +50,6 @@ a{
     text-shadow: 0 0 3px #000, 0 0 5px #000, 0 0 10px #000;
 }
 
-main{
-    display: block;
-    justify-content: center;
-}
-
 section{
     border-radius: 5vw;
     margin: 2vw;
@@ -63,7 +58,10 @@ section{
     padding: 2vw;
     background-color: var(--5);
     box-shadow: 0 0 15px #000;
+    width:inherit;
 }
+
+
 section *{
     background-color: var(--5);
 }
@@ -76,15 +74,26 @@ section > h2{
     color: var(--5);
 }
 
-table *{
-    /* background-color: var(--2); */
-    /* display: inline; */
-    /* display: flexbox; */
-    /* justify-content: center; */
-    text-align: center;
+
+.sec-menu-text{
+    /* margin: 1vw; */
+    font-weight: bolder;
+    font-style: normal;
+    color: var(--1);
+    text-shadow: 0 0 3px #000, 0 0 5px #000, 0 0 10px #000;
+    font-size: large;
+    padding: 1vw;
+    display: block;
 
 }
 
+.sec-menu-text:hover{
+    color: lawngreen;
+}
+
+/* #week-selector{
+    justify-self: center;
+} */
 .session{
     box-shadow:  0 0 10px #000;
 }
@@ -146,3 +155,40 @@ footer{
     font-style: italic;
 }
 
+
+li{
+    list-style-type: none;
+}
+
+
+.wrapper { 
+    display:grid; 
+    grid-template-columns: auto 1fr;
+    /* height: 100vh; */
+}
+
+#one *{
+    position: sticky;
+    top: 0;
+    overflow: auto;
+}
+
+#aboutPage {
+    display: flex;
+    min-height: 70vh;
+    flex-direction: column;
+    gap: 1em; /* Space between sections */
+}
+
+#aboutPage > section {
+    flex-grow: 1; /* This will make each section grow to take up equal space */
+}
+
+/* Media query for larger screens */
+@media (min-width: 1114px) {
+    /* For screens larger than 768px, sections will display horizontally */
+    #aboutPage {
+        flex-direction: row;
+        justify-content: space-between; /* This will add space around sections to distribute them evenly across the main axis */
+    }
+}
